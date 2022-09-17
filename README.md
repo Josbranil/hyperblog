@@ -1,7 +1,7 @@
 # Hyperblog 💚
 Un blog increíble para el[ curso de Git y Github](https://platzi.com/cursos/git-github/ " curso de Git y Github") de [Platzi](https://platzi.com/ "Platzi")
 
-https://josbranil.github.io/hyperblog/blogpost.html
+[**Link del blog**](https://josbranil.github.io/hyperblog/blogpost.html/ "Link del blog")
 
 ## En este curso vemos de todo
 * Todos los comandos de Git
