@@ -15,11 +15,31 @@
             <span id="tagline">Tu blog de cabecera</span>
         </div>
         <div id="post">
-            <h1>Este es mi proyecto del curso de Git y GitHub de platzi.com</h1>
-            <p>Con Git podemos usar diferentes ramas para realizar los cambios que queramos a los archivos de nuestro repositorio, trabajando de forma paralela a nuestra rama principal para no modificar nuestro documento original hasta tanto estemos listos para implementar dichos cambios. Así, podremos fusionar cualquiera de nuestras ramas cuando deseemos a la rama principal.</p>
-            <a href="https://github.com/Josbranil/hyperblog"> Link del repositorio de este blog en GitHub</a>
+            <h1>Git y GitHub</h1>
+            <p>Todos los desarrolladores utilizarán algún tipo de <strong>sistema de control de versiones (VCS)</strong>, una herramienta que les permita colaborar con otros desarrolladores en un proyecto sin peligro de que sobrescriban el trabajo de los demás, y volver a las versiones anteriores de la base de código si existe un problema descubierto más tarde. El VCS más popular (al menos entre los desarrolladores web) es <strong>Git</strong>, junto con <strong> GitHub</strong> , un sitio que proporciona alojamiento para tus repositorios y varias herramientas para trabajar con ellos.</p>
             <p><img src="https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100%" /></p>
-            <p>Los blogs son la mejor forma de compartir información e ideas. Mucho más que ir a conferencias o salir en Youtube. Excepto si eres un rockstar. Pero estadísticamente no lo eres.... Aún 😄</p>
+            <p>
+                Los VCS son esenciales para el desarrollo de software:
+                <ul>
+                <li>
+                    Es raro que trabajes en un proyecto completamente por tu cuenta, y tan pronto como comiences a trabajar con otras personas, comenzarás a correr el riesgo de entrar en conflicto con el trabajo del otro, es decir, cuando ambos intentan actualizar simultáneamente la misma pieza de código. Debes tener algún tipo de mecanismo para administrar las ocurrencias y, como resultado, evitar la pérdida de trabajo.
+                </li>
+                <br>
+                <li>
+                    Cuando trabajes en un proyecto por tu cuenta o con otros, querrás poder hacer una copia de seguridad del código en un lugar central, para que no se pierda si tu computadora se daña.
+                </li>
+                <br>
+                <li>
+                    También querrás poder volver a versiones anteriores si más tarde descubres un problema. Es posible que hayas empezado a hacer esto en tu propio trabajo mediante la creación de diferentes versiones de un mismo archivo, pero esto es muy propenso a errores y poco fiable.
+                </li>
+                <br>
+                <li>
+                    Los diferentes miembros del equipo generalmente querrán crear sus propias versiones separadas del código (llamadas ramas en Git), trabajar en una nueva característica en esa versión y luego fusionarla de manera controlada (en GitHub usamos solicitudes de extracción) con la versión maestra cuando hayan terminado con ella.
+                </li>
+                </ul>
+                Los VCS proporcionan herramientas para satisfacer las necesidades anteriores. Git es un ejemplo de VCS, y GitHub es un sitio web + infraestructura que proporciona un servidor Git más una serie de herramientas realmente útiles para trabajar con repositorios git individuales o en equipo, como informar problemas con el código, herramientas de revisión, características de administración de proyectos tal como asignación de tareas, estados de tareas, y más.
+            </p>
+            <p><strong>Nota:</strong> Git en realidad es un sistema de control de versiones distribuido, lo cual significa que se realiza una copia completa del repositorio que contiene la base de código en tu computadora (y en la de todos los demás). Realizas cambios en tu propia copia, y luego empujas esos cambios nuevamente al servidor, donde un administrador decidirá si fusiona tus cambios con la copia principal.</p>
         </div>
         </div>
     </body>
