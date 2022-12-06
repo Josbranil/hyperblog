@@ -39,3 +39,7 @@ body{
 #post{
     background:#fff;padding:1em
 }
+
+#post .fuente{
+    background-color: lightcyan;
+}
