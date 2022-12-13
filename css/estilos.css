@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background:#1e1f24;
     color:#333;
@@ -38,4 +44,8 @@ body{
 
 #post{
     background:#fff;padding:1em
+}
+
+#post a {
+    text-decoration: none;
 }
